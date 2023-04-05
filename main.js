@@ -1,5 +1,5 @@
 alert("seja bem vindo ao github Pages");
 
-alert("seja bem vindo ao SENAI")
+alert("seja bem vindo ao SENAI");
 
-alert("Bem vimdo Rafael")
+alert("Bem vimdo Rafael");
