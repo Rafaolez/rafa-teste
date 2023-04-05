@@ -38,7 +38,7 @@ function mutiblicação()
 {
     let mut1 = document.getElementById("mut1").value
     let mut2 = document.getElementById("mut2").value
-    document.getElementById( "mutiblicação" ).innerHTML = parseFloat(mut1) * parseFloat(mut2);
+    document.getElementById( "mutiblicação1" ).innerHTML = parseFloat(mut1) * parseFloat(mut2);
 }
 
 
