@@ -23,3 +23,13 @@ function somar()
     document.getElementById( "somar1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2);
 }
 
+document.getElementById( "ddividir" ).addEventListener("click" , somar)
+
+function somar()
+{
+    let numero1 = document.getElementById("div1").value
+    let numero2 = document.getElementById("div2").value
+    document.getElementById( "dividir" ).innerHTML = parseFloat(div1) / parseFloat(div2);
+}
+
+
