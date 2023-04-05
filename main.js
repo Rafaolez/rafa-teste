@@ -32,4 +32,13 @@ function dividir()
     document.getElementById( "dividir" ).innerHTML = parseFloat(div1) / parseFloat(div2);
 }
 
+document.getElementById( "ddividir" ).addEventListener("click" , mutiblicaçõa)
+
+function mutiblicação()
+{
+    let mut1 = document.getElementById("mut1").value
+    let mut2 = document.getElementById("mut2").value
+    document.getElementById( "mutiblicação" ).innerHTML = parseFloat(mut1) * parseFloat(mut2);
+}
+
 
