@@ -20,6 +20,6 @@ function exibesomar()
 {
     let numero1 = document.getElementById("numero1").value
     let numero2 = document.getElementById("numero2").value
-    document.getElementById( "somar" ).innerHTML = "numero1" + numero2;
+    document.getElementById( "somar1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2);
 }
 
