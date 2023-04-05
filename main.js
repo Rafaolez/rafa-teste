@@ -14,7 +14,7 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
-document.getElementById( "somar" ).addEventListener("click" , somar)
+document.getElementById( "somar3" ).addEventListener("click" , somar)
 
 function exibesomar()
 {
