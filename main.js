@@ -27,8 +27,8 @@ document.getElementById( "ddividir" ).addEventListener("click" , dividir)
 
 function dividir()
 {
-    let numero1 = document.getElementById("div1").value
-    let numero2 = document.getElementById("div2").value
+    let div1 = document.getElementById("div1").value
+    let div2 = document.getElementById("div2").value
     document.getElementById( "dividir" ).innerHTML = parseFloat(div1) / parseFloat(div2);
 }
 
