@@ -19,5 +19,5 @@ document.getElementById( "somar" ).addEventListener( "click" , exibenumero1numer
 function exibenumero1numero2()
 {
     let soma = document.getElementById( "numero1 numero2" ).value
-    document.getElementById( "somar" ).innerHTML = "numero1 + numero2" + somar
+    document.getElementById( "somar1" ).innerHTML = "numero1 + numero2" + somar1;
 }
