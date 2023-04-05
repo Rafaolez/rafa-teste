@@ -32,13 +32,13 @@ function dividir()
     document.getElementById( "dividir" ).innerHTML = parseFloat(div1) / parseFloat(div2);
 }
 
-document.getElementById( "mutiblicação" ).addEventListener("click" , mutiblicaçõa)
+document.getElementById( "mutiplicação" ).addEventListener("click" , mutiplicaçõa)
 
-function mutiblicação()
+function mutiplicação()
 {
     let mut1 = document.getElementById("mut1").value
     let mut2 = document.getElementById("mut2").value
-    document.getElementById( "mutiblicação1" ).innerHTML = parseFloat(mut1) * parseFloat(mut2);
+    document.getElementById( "mutiplicação1" ).innerHTML = parseFloat(mut1) * parseFloat(mut2);
 }
 
 
