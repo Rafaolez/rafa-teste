@@ -23,7 +23,7 @@ function somar()
     document.getElementById( "somar1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2);
 }
 
-document.getElementById( "ddividir" ).addEventListener("click" , somar)
+document.getElementById( "ddividir" ).addEventListener("click" , dividir)
 
 function somar()
 {
