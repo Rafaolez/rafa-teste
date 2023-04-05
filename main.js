@@ -14,10 +14,12 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
-document.getElementById( "somar" ).addEventListener( "click" , exibenumero1numero2 );
+document.getElementById( "somar" ).addEventListener("click" , somar)
 
-function exibenumero1numero2()
+function exibesomar()
 {
-    let soma = document.getElementById( "numero1 numero2" ).value
-    document.getElementById( "somar1" ).innerHTML = "numero1 + numero2" + somar1;
+    let numero1 = document.getElementById("numero1").value
+    let numero2 = document.getElementById("numero2").value
+    document.getElementById( "somar" ).innerHTML = "numero1" + numero2;
 }
+
