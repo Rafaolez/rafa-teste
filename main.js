@@ -25,7 +25,7 @@ function somar()
 
 document.getElementById( "ddividir" ).addEventListener("click" , dividir)
 
-function somar()
+function dividir()
 {
     let numero1 = document.getElementById("div1").value
     let numero2 = document.getElementById("div2").value
